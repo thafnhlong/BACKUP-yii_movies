@@ -1,0 +1,316 @@
+html,
+body {
+    height: 100%;
+    font-size: 14px;
+    font-family: Arial,Helvetica, sans-serif;
+    line-height: 1.3em;
+    font-weight: normal;
+    background: #eee;
+    margin: 0;
+}
+/*------ Set defautl all browser -------*/
+a {
+    color: #3C9CD7;
+    text-decoration: none;
+}
+.overlow-hidden{
+    overflow: hidden;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+ul,span,p,div,h1, .h1, h2, .h2, h3, .h3 {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.no-margin-left {
+    margin-left: 0 !important;
+}
+.no-margin-right {
+    margin-right: 0 !important;
+}
+a,a:focus,a:hover {
+    text-decoration: none;
+}
+.container{
+    padding:0;
+}
+#header .top{
+    background: #ffffff;
+    padding:5px 0;
+    text-align: center;
+}
+#header .top #logo{
+    width: 70px;
+    margin: 0 15px 0 0;
+}
+#header .top .scope{
+    margin: 11px 15px 0 0;
+    
+}
+#header .top .scope .dropdown-toggle{
+    padding: 3px 12px;
+    border-radius: 2px;
+    background: #fbfbfb;
+}
+#header .top .login{
+    line-height: 50px;
+}
+#header .top .login a{
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+}
+#header .form-search{
+    width: 500px;
+    margin: 6px auto 0 auto;
+    display: inline-block;
+}
+#search input {
+	background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    color: #7F7F7F;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    transition: background 0.3s ease-in-out 0s;
+    width: 385px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+}
+
+#search button {
+	background: #7eac10;
+    cursor: pointer;
+    height: 38px;
+    color: #fff;
+    transition: background 0.3s ease-in-out 0s;
+    width: 42px;
+    border: 2px solid #fff;
+    outline: none;
+    float: left;
+    margin: 1px 0 0 -43px;
+}
+
+#search button:hover {
+	background-color:#000;
+}
+.open>.dropdown-toggle.btn-default{
+    background: #e2e2e2;
+}
+.open>.dropdown-toggle.btn-default:hover{
+    background: #e4e4e4;
+}
+#modal-login .modal-body{
+    overflow: hidden;
+}
+#modal-login .btn-login{
+    width: 260px;
+    background-color: #7eac10;
+    font-size: 14px;
+    font-family: "Arial";
+    height: 42px;
+    color: #ffffff;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+#modal-login .form-control{
+    padding:3px 6px;
+    width: 220px;
+}
+#modal-login .input-group .input-group-addon{
+    width: 15px;
+}
+.group-dangnhap{
+    float: left;
+    width: 50%;
+}
+.group-dangnhap > p{
+    margin: 0 0 10px 0;
+    color: #828282;
+    font-weight: bold;
+}
+.group-dangnhap .social-login{
+    margin: 18px 0 10px 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    text-align: center;
+    height: 48px;
+    line-height: 46px;
+    background-color: #4285f4;
+    color:#ffffff;
+    font-size: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.group-dangnhap .social-login .icon{
+    float: left;
+    margin: 1px;
+}
+.group-dangnhap:last-child{
+    width: 45%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    border-left: 1px solid #dcdcdc;
+}
+.group-dangnhap .social-login a{
+    display: block;
+    font-weight: bold;
+    height: 100%;
+    padding: 12px;
+}
+.group-dangnhap .social-login:last-child a{
+    
+}
+.group-dangnhap .form-group a.btn-link{
+    color:#333333;
+    margin: 0 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.login.dropdown img.img-circle{
+    height: 90px;
+    width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.login.dropdown .dropdown-menu{
+    text-align: center;
+    padding: 10px 0 0 0;
+    background: #121212;
+    border-top: 1px solid #fafafa;
+    border-radius: 0;
+    width: 210px;
+    right: -1px;
+    left: inherit;
+}
+.login.dropdown .user-footer{
+    background: #ffffff;
+    overflow: hidden;
+    padding: 0 10px;
+}
+#content{
+    
+}
+.top-slide{
+    position: relative;
+}
+.top-slide #thumbnail-slider{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 9;
+    bottom: 10px;
+    height: auto;
+}
+#ninja-slider ul{
+    padding: 0 !important;
+    height: 445px !important;
+}
+.banner{
+    background: #000;
+    padding: 20px 0;
+    margin: 0 0 20px 0;
+}
+#sidebar{
+    float: left;
+    width: 190px;
+}
+#main-content{
+    float: left;
+    width: 960px;
+    margin: 0 0 0 20px;
+}
+.categories .heading{
+    text-transform: uppercase;
+    padding: 16px 10px;
+    background: #e5e5e5;
+    color: #333;
+}
+.categories ul li{
+    overflow: hidden;
+}
+.categories ul li a{
+    border-left: transparent 2px solid;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: #e5e5e5 1px solid;
+    color: #555;
+}
+.categories ul li a.active,
+.categories ul li a:hover{
+    background: #f1f1f1;
+    color:#7eac10;
+}
+.list-content ul li{
+    float: left;
+    width: 33.33%;
+    overflow: hidden;
+}
+.list-content ul{
+    margin-right: -15px;
+    overflow: hidden;
+}
+.list-content ul li .wrapper{
+    padding: 0 15px 15px 0;
+}
+.list-content ul li .wrapper .image img{
+    width: 100%;
+}
+.list-content ul li .wrapper .text{
+    height: 55px;
+    padding:8px;
+    background: #ffffff;
+}
+.list-content ul li .wrapper .text .title{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.list-content ul li .wrapper .text .address{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:12px;
+    color:#666;
+}

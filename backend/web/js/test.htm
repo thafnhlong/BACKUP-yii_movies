@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="ChinhTV" />
+
+	<title>Untitled 2</title>
+    <link rel="stylesheet" href="../css/cropper.css" />
+</head>
+
+<body>
+
+<img id="preview-upload" src="http://i.dailymail.co.uk/i/pix/2016/03/15/18/3236BC6800000578-0-image-a-5_1458065984169.jpg" />
+<script src="jquery.js"></script>
+<script src="cropper.min.js"></script>
+<script>
+    $(function(){
+        $("#preview-upload").cropper({
+            aspectRatio: 16 / 9,
+            autoCropArea:1,
+            crop: function(e) {
+              $("#x").val(e.x);
+              $("#y").val(e.y);
+              $("#w").val(e.width);
+              $("#h").val(e.height);
+            }
+        });
+    })
+</script>
+</body>
+</html>
